@@ -1,0 +1,29 @@
+.about {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: (100px 100px 100px);
+  padding: 20px 0px 20px;
+}
+.about-header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.about-tetx {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  letter-spacing: 2px;
+}
+.about-illustartion {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.img {
+  width: 300px;
+  height: auto;
+}

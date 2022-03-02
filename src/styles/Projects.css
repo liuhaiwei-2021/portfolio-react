@@ -1,0 +1,32 @@
+.projects {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: (100px 100px 100px 100px 100px);
+
+  padding: 20px 0px 20px;
+}
+.projects-header {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.projects-text {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 7;
+}
+
+.projects-cards {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 7;
+  padding: 8px;
+}
+.projects-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: min-content;
+}

@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  padding: 8px 0;
+  background-color: #eee;
+}
+.social-icon-group {
+  display: inline-flex;
+  width: 100px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+.social-icon {
+  padding: 4px;
+}
+img {
+  width: 24px;
+  height: 24px;
+}
+.footer-text {
+  margin-bottom: 0px;
+}

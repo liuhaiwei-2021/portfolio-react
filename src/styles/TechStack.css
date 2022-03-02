@@ -1,0 +1,36 @@
+.tech-stack {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: (100px 100px 100px 100px);
+  padding: 20px 0px 20px;
+}
+.tech-stack-header {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.tech-stack-text {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.tech-stack-cards {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  padding: 8px;
+}
+.tech-stack-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: min-content;
+}
+.tech-stack-cards .card img {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+}

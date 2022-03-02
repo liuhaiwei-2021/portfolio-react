@@ -1,0 +1,32 @@
+button {
+  background: transparent;
+  border-width: 0px;
+  outline: none;
+}
+#card {
+  pointer-events: none;
+}
+.card {
+  border-radius: 25px;
+  padding: 8px;
+  margin: 0 16px 16px 0;
+  padding: 4px;
+  text-align: center;
+  pointer-events: none;
+}
+.card-body {
+  padding: 4px;
+}
+.card img {
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 0.5rem;
+  padding: 0;
+  cursor: pointer;
+  transition: all;
+  pointer-events: none;
+}
+.card img:hover {
+  transform: scale(1.5);
+}
