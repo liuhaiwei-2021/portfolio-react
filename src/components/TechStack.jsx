@@ -1,5 +1,4 @@
 //Projects files
-import Card from "./Card";
 import tech from "../assets/data/tech.json";
 import "../styles/TechStack.css";
 import CardTech from "./CardTech";

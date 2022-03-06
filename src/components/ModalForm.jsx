@@ -10,7 +10,7 @@ export default function ModalForm({ item, modalState }) {
 
   return (
     <div className="modal" onClick={() => setShowModal(false)}>
-      <div className="modal-picture">
+      <div className="modal-picture" onClick={() => setShowModal(false)}>
         <img className="picture" src={desktopImg} alt="picture" />
       </div>
 

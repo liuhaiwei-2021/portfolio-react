@@ -1,5 +1,5 @@
 //Projects files
-import Card from "./Card";
+import CardProject from "./CardProject";
 import projects from "../assets/data/projects.json";
 import "../styles/Projects.css";
 
@@ -20,7 +20,9 @@ function Projects() {
 
         <div className="projects-cards" id="projects-cards">
           {projects.length > 0 &&
-            projects.map((item, index) => <Card key={index} item={item} />)}
+            projects.map((item, index) => (
+              <CardProject key={index} item={item} />
+            ))}
         </div>
       </div>
     </section>

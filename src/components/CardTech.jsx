@@ -7,7 +7,6 @@ function CardTech({ item }) {
     <div className="card-tech">
       <div className="card">
         <img src={imageURL} alt={title} />
-
         <div className="card-body">
           <h3 className="card-text">{title}</h3>
         </div>
