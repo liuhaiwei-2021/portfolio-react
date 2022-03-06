@@ -13,7 +13,7 @@ function Projects() {
 
         <div className="projects-text">
           <p>
-            I like to make useful but excellent products. Here are some of my
+            I like to make useful and excellent products. Here are some of my
             projects in Novare potential.
           </p>
         </div>
