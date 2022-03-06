@@ -2,6 +2,7 @@
 import Card from "./Card";
 import tech from "../assets/data/tech.json";
 import "../styles/TechStack.css";
+import CardTech from "./CardTech";
 
 function TechStack() {
   return (
@@ -20,7 +21,7 @@ function TechStack() {
 
         <div className="tech-stack-cards" id="tech-stack-cards">
           {tech.length > 0 &&
-            tech.map((item) => <Card key={item.id} item={item} />)}
+            tech.map((item) => <CardTech key={item.id} item={item} />)}
         </div>
       </div>
     </section>

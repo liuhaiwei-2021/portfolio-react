@@ -5,7 +5,8 @@
     "imageURL": "images/projects/EIKA.png",
     "desktopImg": "images/desktopImg/coming.png",
     "desc": "EIKA Shopping list",
-    "tech": ["JavaScript", "CSS", "HTML", "React"]
+    "tech": ["JavaScript", "CSS", "HTML", "React"],
+    "isOpen": true
   },
   {
     "id": 1,
@@ -13,7 +14,8 @@
     "imageURL": "images/projects/portfolio.png",
     "desktopImg": "images/desktopImg/coming.png",
     "desc": "A portfolio webpage",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"]
+    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"],
+    "isOpen": false
   },
   {
     "id": 2,
@@ -21,7 +23,8 @@
     "imageURL": "images/projects/Vegan restanrant.png",
     "desktopImg": "images/desktopImg/coming.png",
     "desc": "A vegan restaurant",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"]
+    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"],
+    "isOpen": false
   },
   {
     "id": 3,
@@ -29,7 +32,8 @@
     "imageURL": "images/projects/Package tracker.png",
     "desktopImg": "images/desktopImg/coming.png",
     "desc": "A Package tracker app",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"]
+    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"],
+    "isOpen": false
   },
   {
     "id": 4,
@@ -37,7 +41,8 @@
     "imageURL": "images/projects/todo.png",
     "desktopImg": "images/desktopImg/coming.png",
     "desc": "A Shopping-list app where users can save their items to buy by EIKA store that uses:",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"]
+    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"],
+    "isOpen": false
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "imageURL": "images/projects/BBQ.png",
     "desktopImg": "images/desktopImg/coming.png",
     "desc": "A BBQ restaurant",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"]
+    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"],
+    "isOpen": false
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "imageURL": "images/projects/Learning platform.png",
     "desktopImg": "images/desktopImg/coming.png",
     "desc": "A learning platform",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"]
+    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"],
+    "isOpen": false
   },
   {
     "id": 8,
@@ -61,6 +68,7 @@
     "imageURL": "images/projects/netflix.png",
     "desktopImg": "images/desktopImg/coming.png",
     "desc": "A Netflix clone",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"]
+    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"],
+    "isOpen": false
   }
 ]
