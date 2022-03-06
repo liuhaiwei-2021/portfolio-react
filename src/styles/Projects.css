@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: (100px 100px 100px 100px 100px);
-
   padding: 20px 0px 20px;
 }
 .projects-header {

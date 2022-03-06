@@ -28,10 +28,10 @@ export default function ModalForm({ item, modalState }) {
         </div>
 
         <div className="button-group">
-          <a href="/">
+          <a href="https://my-portfolio-b6614.web.app">
             <button> Visit Website/APP</button>
           </a>
-          <a href="https://github.com/liuhaiwei-2021">
+          <a href="https://github.com/liuhaiwei-2021/portfolio-react/tree/2-fix-projects-card">
             <button> Git repository</button>
           </a>
         </div>
