@@ -19,6 +19,7 @@ function Projects() {
         </div>
 
         <div className="projects-cards" id="projects-cards">
+          {/* Nesting -1 */}
           {projects.length > 0 &&
             projects.map((item, index) => (
               <CardProject key={index} item={item} />

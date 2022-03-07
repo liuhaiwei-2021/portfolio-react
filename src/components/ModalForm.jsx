@@ -23,6 +23,7 @@ export default function ModalForm({ item, modalState }) {
         <p className="text">{desc}</p>
 
         <div className="pill-group">
+          {/* Again nesting */}
           {tech.length > 0 &&
             tech.map((item, index) => (
               <button key={index} className="pill">

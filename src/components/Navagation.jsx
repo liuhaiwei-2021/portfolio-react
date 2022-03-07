@@ -1,6 +1,8 @@
 //Project files
 import "../styles/Navagation.css";
 
+// Component length and DRY + Abstraction. -1 and -1.
+// Although your component does not reach 50 lines, you could have created a component to create each item.
 function Navagation() {
   return (
     <div className="nav-bar">

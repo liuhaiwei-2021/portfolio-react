@@ -9,6 +9,7 @@ function Contact() {
         <div className="contact-header">
           <h1>Contact</h1>
         </div>
+        {/* The code of this component could be inside here in Contact. */}
         <ContactTable />
       </div>
     </div>

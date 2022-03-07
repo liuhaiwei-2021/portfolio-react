@@ -6,6 +6,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="social-icon-group">
+        {/* Same nestung issue, it make the code harder to read -1 */}
         {social.length > 0 &&
           social.map((item, index) => (
             <div className="social-icon" key={index}>

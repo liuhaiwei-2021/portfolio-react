@@ -17,6 +17,7 @@ function CardProject({ item }) {
   }
 
   return (
+    // You could use article for the card instead of div
     <div className="card-project" onClick={isOpen ? openModal : null}>
       <div className="card">
         <div className="img-project">
@@ -24,6 +25,7 @@ function CardProject({ item }) {
         </div>
         {!isOpen && (
           <div className="lock">
+            {/* This could be done using css text transform uppercase */}
             <h3>COMING SOON</h3>
           </div>
         )}

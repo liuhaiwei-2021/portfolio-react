@@ -1,6 +1,7 @@
 //Project files
 import "../styles/Hero.css";
 
+// good
 function Hero() {
   return (
     <section className="hero" id="hero">

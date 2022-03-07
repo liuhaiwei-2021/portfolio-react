@@ -19,6 +19,8 @@ function TechStack() {
         </div>
 
         <div className="tech-stack-cards" id="tech-stack-cards">
+          {/* Nesting -1 */}
+          {/* Also, each time you do tech.length > 0 && code, you dont show me what happens if the length is 0 -1 */}
           {tech.length > 0 &&
             tech.map((item) => <CardTech key={item.id} item={item} />)}
         </div>
