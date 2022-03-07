@@ -10,10 +10,14 @@ export default function ModalForm({ item, modalState }) {
 
   return (
     <div className="modal">
-      <div className="modal-picture" onClick={() => setShowModal(null)}>
+      <div className="modal-picture">
         <img className="picture" src={desktopImg} alt="picture" />
       </div>
-
+      <div className="btn-cancel">
+        <button className="cancel" onClick={() => setShowModal(false)}>
+          X
+        </button>
+      </div>
       <div className="project-info">
         <h3 className="header">{title}</h3>
         <p className="text">{desc}</p>

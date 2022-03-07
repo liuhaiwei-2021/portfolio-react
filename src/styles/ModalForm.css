@@ -1,6 +1,6 @@
 .modal {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   background: #f5f5f7;
   overflow: hidden;
@@ -76,4 +76,11 @@
 }
 .pill:hover {
   background-color: #f1f1f1;
+}
+.btn-cancel {
+  color: red;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
