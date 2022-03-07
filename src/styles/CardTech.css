@@ -3,11 +3,9 @@
   border-width: 0px;
   outline: none;
 }
-
 .card-title {
   pointer-events: none;
 }
-
 .card-tech {
   border-radius: 25px;
   padding: 8px;
