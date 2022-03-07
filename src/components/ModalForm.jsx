@@ -2,15 +2,15 @@
 import "../styles/ModalForm.css";
 
 export default function ModalForm({ item, modalState }) {
-  const { imageURL, title, desc, tech, desktopImg } = item;
+  const { imageURL, title, desc, tech, desktopImg, git, web } = item;
   const [showModal, setShowModal] = modalState;
 
   // Safeguard
   if (showModal === false) return null;
 
   return (
-    <div className="modal" onClick={() => setShowModal(false)}>
-      <div className="modal-picture" onClick={() => setShowModal(false)}>
+    <div className="modal">
+      <div className="modal-picture" onClick={() => setShowModal(null)}>
         <img className="picture" src={desktopImg} alt="picture" />
       </div>
 
@@ -28,10 +28,10 @@ export default function ModalForm({ item, modalState }) {
         </div>
 
         <div className="button-group">
-          <a href="https://my-portfolio-b6614.web.app">
+          <a href={web}>
             <button> Visit Website/APP</button>
           </a>
-          <a href="https://github.com/liuhaiwei-2021/portfolio-react/tree/2-fix-projects-card">
+          <a href={git}>
             <button> Git repository</button>
           </a>
         </div>

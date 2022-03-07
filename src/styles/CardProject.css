@@ -1,13 +1,7 @@
 .card-title {
   pointer-events: none;
 }
-.card-tech {
-  border-radius: 25px;
-  padding: 8px;
-  margin: 0 16px 16px 0;
-  padding: 4px;
-  text-align: center;
-}
+
 .card-body {
   padding: 4px;
 }
@@ -38,4 +32,7 @@
 }
 .lock h3 {
   margin-top: 60px;
+}
+.card-project {
+  margin-right: 0.5em;
 }
