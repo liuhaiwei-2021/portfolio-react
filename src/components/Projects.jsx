@@ -1,6 +1,6 @@
 //Projects files
 import CardProject from "./CardProject";
-import projects from "../assets/data/projects.json";
+import projects from "../data/projects.json";
 import "../styles/Projects.css";
 
 function Projects() {

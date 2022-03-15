@@ -1,5 +1,5 @@
 //Project files
-import social from "../assets/data/social.json";
+import social from "../data/social.json";
 import "../styles/Footer.css";
 
 function Footer() {
