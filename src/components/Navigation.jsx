@@ -1,7 +1,7 @@
 //Project files
-import "../styles/Navagation.css";
+import "../styles/Navigation.css";
 
-function Navagation() {
+function Navigation() {
   return (
     <div className="nav-bar">
       <div className="nav-container">
@@ -43,4 +43,4 @@ function Navagation() {
   );
 }
 
-export default Navagation;
+export default Navigation;

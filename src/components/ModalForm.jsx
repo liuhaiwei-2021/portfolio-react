@@ -2,7 +2,7 @@
 import "../styles/ModalForm.css";
 
 export default function ModalForm({ item, modalState }) {
-  const { imageURL, title, desc, tech, desktopImg, git, web } = item;
+  const { title, desc, tech, desktopImg, git, web } = item;
   const [showModal, setShowModal] = modalState;
 
   // Safeguard
@@ -11,7 +11,7 @@ export default function ModalForm({ item, modalState }) {
   return (
     <div className="modal">
       <div className="modal-picture">
-        <img className="picture" src={desktopImg} alt="picture" />
+        <img className="picture" src={desktopImg} alt="app screenshot" />
       </div>
       <div className="btn-cancel">
         <button className="cancel" onClick={() => setShowModal(false)}>
