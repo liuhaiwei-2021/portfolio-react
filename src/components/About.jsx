@@ -9,7 +9,7 @@ function About() {
           <h1>About Haiwei</h1>
         </div>
 
-        <div className="about-text">
+        <div classNameder="about-text">
           <p>
             Hi! I'm Haiwei, grew up in China , a frontend developer from
             Stockholm Sweden.
@@ -20,7 +20,7 @@ function About() {
           </p>
           <p>
             I love walking, reading, listening music, learning new things and
-            really love code !
+            really love coding !
           </p>
         </div>
 

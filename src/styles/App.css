@@ -21,7 +21,7 @@ body {
 }
 .content {
   display: block;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 .bg-light {
   background-color: #ffffff;
@@ -32,4 +32,8 @@ body {
 p {
   margin-top: 4px;
   letter-spacing: 0.1em;
+}
+h1,
+h2 {
+  margin: 0;
 }

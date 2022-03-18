@@ -1,12 +1,14 @@
 .about {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: (100px 100px 100px);
+  min-height: 100vh;
+  width: 100%;
+  grid-template-rows: (1fr 1fr);
+  grid-template-columns: (1fr 1fr);
   padding: 20px 0px 20px;
 }
 .about-header {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
 }
@@ -14,14 +16,13 @@
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
-  grid-row-end: 4;
-  letter-spacing: 2px;
+  grid-row-end: 3;
 }
 .about-illustartion {
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 3;
 }
 .about img {
   width: 300px;
