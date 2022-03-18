@@ -2,29 +2,27 @@
   display: grid;
   min-height: 100vh;
   width: 100%;
-  grid-template-rows: (1fr 1fr);
+  grid-template-rows: (1fr);
   grid-template-columns: (1fr 1fr);
-  padding: 20px 0px 20px;
+  padding: 50px 0px 50px 0;
 }
-.about-header {
+.about-info {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
 }
-.about-tetx {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
+.about-text {
+  padding: 50px 0 50px 0;
 }
+
 .about-illustartion {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 2;
 }
 .about img {
-  width: 300px;
+  width: 600px;
   height: auto;
 }
