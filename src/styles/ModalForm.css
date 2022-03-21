@@ -18,8 +18,9 @@
   display: inline-block;
   width: 30rem;
   height: 30rem;
+  object-fit: cover;
   border-radius: 0.5rem;
-  padding: 16 px;
+  padding: 16px;
 }
 .modal .project-info {
   padding: 16px;

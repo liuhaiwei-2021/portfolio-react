@@ -1,25 +1,14 @@
 [
   {
-    "id": 0,
-    "title": "EIKA Shopping List",
-    "imageURL": "images/projects/EIKA.png",
-    "desktopImg": "images/desktopImg/coming.png",
-    "desc": "EIKA Shopping list",
-    "tech": ["JavaScript", "CSS", "HTML", "React"],
-    "isOpen": true,
-    "git": "https://github.com/liuhaiwei-2021/eika-shopping-list",
-    "web": "https://my-portfolio-b6614.web.app"
-  },
-  {
     "id": 1,
     "title": "Portoflio",
     "imageURL": "images/projects/portfolio.png",
-    "desktopImg": "images/desktopImg/coming.png",
+    "desktopImg": "images/desktopImg/portfolio.png",
     "desc": "A portfolio webpage",
     "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"],
-    "isOpen": false,
-    "git": "https://github.com/liuhaiwei-2021/eika-shopping-list",
-    "web": ""
+    "isOpen": true,
+    "git": "https://github.com/liuhaiwei-2021/portfolio-react/tree/master",
+    "web": "https://my-portfolio-b6614.web.app/"
   },
   {
     "id": 2,
