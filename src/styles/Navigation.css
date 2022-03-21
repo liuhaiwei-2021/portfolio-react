@@ -9,10 +9,11 @@
   background-color: #eee;
 }
 .nav-container {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
 }
 .logo {
   width: 36px;
@@ -44,4 +45,41 @@ a:hover {
 }
 a:active {
   color: #ffffff;
+}
+
+/* Larger than mobile */
+@media (max-width: 400px) {
+  a {
+    font-size: 8px;
+  }
+  .logo {
+    width: 12px;
+  }
+}
+
+/* Larger than phablet */
+@media (max-width: 550px) {
+  a {
+    font-size: 10px;
+  }
+  .logo {
+    width: 16px;
+  }
+  ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 2px 4px;
+    font-weight: bold;
+  }
+  .nav-bar {
+    margin: 0 auto;
+  }
+  .navbar-items {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px 0;
+  }
+  .nav-container {
+    width: 60%;
+  }
 }
