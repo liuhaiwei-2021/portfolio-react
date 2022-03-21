@@ -1,6 +1,5 @@
 //Projects files
 import contact from "../data/contact.json";
-import "../styles/ContactTable.css";
 
 function ContactTable() {
   return (

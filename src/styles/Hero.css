@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: calc(100vh - 50px);
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
 .hero-image {
   display: block;
   width: 100%;
-  height: calc(100vh - 50px);
+  height: 100vh;
   left: 0;
   object-fit: cover;
   position: absolute;

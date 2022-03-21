@@ -1,22 +1,35 @@
 .contact {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-auto-rows: 50px;
-  grid-template-rows: repeat(4, 1fr);
-  padding: 20px 0px 20px;
+  min-height: 60vh;
+  width: 100%;
+  grid-template-rows: (1fr);
+  grid-template-columns: (1fr);
+  padding: 50px 0px 50px 0;
 }
-.contact-header {
+.contact-info {
   grid-column-start: 1;
-  grid-column-end: 6;
+  grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 .contact-table {
   grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 4;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
   padding: 8px;
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
+}
+.contact-table {
+  margin: 48px;
+}
+tr {
+  text-align: left;
+}
+.contact-table img {
+  width: 24px;
+  height: 24px;
+  padding-right: 8px;
+  margin-right: 4px;
 }
