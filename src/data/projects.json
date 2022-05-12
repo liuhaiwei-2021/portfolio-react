@@ -1,79 +1,79 @@
 [
-  {
-    "id": 1,
-    "title": "Portoflio",
-    "imageURL": "images/projects/portfolio.png",
-    "desktopImg": "images/desktopImg/portfolio.png",
-    "desc": "A portfolio webpage",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"],
-    "isOpen": true,
-    "git": "https://github.com/liuhaiwei-2021/portfolio-react/tree/master",
-    "web": "https://my-portfolio-b6614.web.app/"
-  },
-  {
-    "id": 2,
-    "title": "Vegan restaurant",
-    "imageURL": "images/projects/Vegan restanrant.png",
-    "desktopImg": "images/desktopImg/coming.png",
-    "desc": "A vegan restaurant",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"],
-    "isOpen": false,
-    "git": "https://github.com/liuhaiwei-2021/eika-shopping-list",
-    "web": ""
-  },
-  {
-    "id": 3,
-    "title": "Package tracker",
-    "imageURL": "images/projects/Package tracker.png",
-    "desktopImg": "images/desktopImg/coming.png",
-    "desc": "A Package tracker app",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"],
-    "isOpen": false,
-    "git": "https://github.com/liuhaiwei-2021/eika-shopping-list",
-    "web": ""
-  },
-  {
-    "id": 4,
-    "title": "Todo list testing",
-    "imageURL": "images/projects/todo.png",
-    "desktopImg": "images/desktopImg/coming.png",
-    "desc": "A Shopping-list app where users can save their items to buy by EIKA store that uses:",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"],
-    "isOpen": false,
-    "git": "https://github.com/liuhaiwei-2021/eika-shopping-list",
-    "web": ""
-  },
-  {
-    "id": 6,
-    "title": "BBQ Restaurant",
-    "imageURL": "images/projects/BBQ.png",
-    "desktopImg": "images/desktopImg/coming.png",
-    "desc": "A BBQ restaurant",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"],
-    "isOpen": false,
-    "git": "https://github.com/liuhaiwei-2021/eika-shopping-list",
-    "web": ""
-  },
-  {
-    "id": 7,
-    "title": "LMS ",
-    "imageURL": "images/projects/Learning platform.png",
-    "desktopImg": "images/desktopImg/coming.png",
-    "desc": "A learning platform",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"],
-    "isOpen": false,
-    "git": "https://github.com/liuhaiwei-2021/eika-shopping-list",
-    "web": ""
-  },
-  {
-    "id": 8,
-    "title": "Netflix clone",
-    "imageURL": "images/projects/netflix.png",
-    "desktopImg": "images/desktopImg/coming.png",
-    "desc": "A Netflix clone",
-    "tech": ["JavaScript", "CSS", "HTML", "React", "FireBase", "TypeScript"],
-    "isOpen": false,
-    "git": "https://github.com/liuhaiwei-2021/eika-shopping-list",
-    "web": ""
-  }
+	{
+		"id": 1,
+		"title": "Portoflio",
+		"imageURL": "images/projects/portfolio.png",
+		"desktopImg": "images/desktopImg/portfolio.png",
+		"desc": "A portfolio webpage",
+		"tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"],
+		"isOpen": true,
+		"git": "https://github.com/liuhaiwei-2021/portfolio-react/tree/master",
+		"web": "https://my-portfolio-b6614.web.app/"
+	},
+	{
+		"id": 2,
+		"title": "Vegan restaurant",
+		"imageURL": "images/projects/Vegan restanrant.png",
+		"desktopImg": "images/desktopImg/vegan.png",
+		"desc": "A vegan restaurant",
+		"tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"],
+		"isOpen": true,
+		"git": "https://github.com/liuhaiwei-2021/vegan-restaurant-react",
+		"web": "https://vegan-taste-cdf9e.web.app/"
+	},
+	{
+		"id": 3,
+		"title": "Package tracker",
+		"imageURL": "images/projects/Package tracker.png",
+		"desktopImg": "images/desktopImg/package.png",
+		"desc": "A Package tracker app",
+		"tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"],
+		"isOpen": true,
+		"git": "https://github.com/liuhaiwei-2021/package-tracker-react",
+		"web": "https://package-tracker-react.web.app/"
+	},
+	{
+		"id": 4,
+		"title": "Todo list testing",
+		"imageURL": "images/projects/todo.png",
+		"desktopImg": "images/desktopImg/eika.png",
+		"desc": "A Shopping-list app where users can save their items to buy by EIKA store that uses:",
+		"tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"],
+		"isOpen": true,
+		"git": "https://github.com/liuhaiwei-2021/eika-testing",
+		"web": "https://eika-todo-react-testing.web.app/"
+	},
+	{
+		"id": 6,
+		"title": "BBQ Restaurant",
+		"imageURL": "images/projects/BBQ.png",
+		"desktopImg": "images/desktopImg/bbq.png",
+		"desc": "A BBQ restaurant",
+		"tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"],
+		"isOpen": true,
+		"git": "https://github.com/liuhaiwei-2021/bbq-restaurant-website",
+		"web": "https://bbq-restaurant-website.web.app"
+	},
+	{
+		"id": 7,
+		"title": "LMS ",
+		"imageURL": "images/projects/Learning platform.png",
+		"desktopImg": "images/desktopImg/lms.png",
+		"desc": "A learning platform",
+		"tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"],
+		"isOpen": true,
+		"git": "https://github.com/liuhaiwei-2021/LMS-react-firebase",
+		"web": "https://lms-react-firebase.web.app/"
+	},
+	{
+		"id": 8,
+		"title": "Netflix clone",
+		"imageURL": "images/projects/netflix.png",
+		"desktopImg": "images/desktopImg/coming.png",
+		"desc": "A Netflix clone",
+		"tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"],
+		"isOpen": false,
+		"git": "https://github.com/liuhaiwei-2021/eika-shopping-list",
+		"web": ""
+	}
 ]

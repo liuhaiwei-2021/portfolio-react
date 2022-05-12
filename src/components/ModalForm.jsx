@@ -1,45 +1,45 @@
 // Project file
 import "../styles/ModalForm.css";
+import { useModal } from "../state/ModalContext";
 
-export default function ModalForm({ item, modalState }) {
-  const { title, desc, tech, desktopImg, git, web } = item;
-  const [showModal, setShowModal] = modalState;
+export default function ModalForm({ item }) {
+	//Global state
+	const { setModal } = useModal();
+	//properties
+	const { title, desc, tech, desktopImg, git, web } = item;
 
-  // Safeguard
-  if (showModal === false) return null;
+	return (
+		<div className="modal-form">
+			<div className="modal-picture">
+				<img className="picture" src={desktopImg} alt="app screenshot" />
+			</div>
 
-  return (
-    <div className="modal">
-      <div className="modal-picture">
-        <img className="picture" src={desktopImg} alt="app screenshot" />
-      </div>
-      <div className="btn-cancel">
-        <button className="cancel" onClick={() => setShowModal(false)}>
-          X
-        </button>
-      </div>
-      <div className="project-info">
-        <h3 className="header">{title}</h3>
-        <p className="text">{desc}</p>
+			<button className="cancel" onClick={() => setModal(null)}>
+				X
+			</button>
 
-        <div className="pill-group">
-          {tech.length > 0 &&
-            tech.map((item, index) => (
-              <button key={index} className="pill">
-                {item}
-              </button>
-            ))}
-        </div>
+			<div className="project-info">
+				<h3 className="header">{title}</h3>
+				<p className="text">{desc}</p>
 
-        <div className="button-group">
-          <a href={web}>
-            <button> Visit Website/APP</button>
-          </a>
-          <a href={git}>
-            <button> Git repository</button>
-          </a>
-        </div>
-      </div>
-    </div>
-  );
+				<div className="pill-group">
+					{tech.length > 0 &&
+						tech.map((item, index) => (
+							<button key={index} className="pill">
+								{item}
+							</button>
+						))}
+				</div>
+
+				<div className="button-group">
+					<a href={web}>
+						<button> Visit Website/APP</button>
+					</a>
+					<a href={git}>
+						<button> Git repository</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	);
 }
