@@ -16,7 +16,7 @@ function About() {
 							Sweden.
 						</p>
 						<p>
-							Foucus on frontend skills and enjoy creating delightful and
+							Focus on frontend skills and enjoy creating delightful and
 							human-centered experiences!
 						</p>
 						<p>
