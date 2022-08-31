@@ -73,7 +73,7 @@
 		"desc": "A Netflix clone",
 		"tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"],
 		"isOpen": true,
-		"git": "https://github.com/liuhaiwei-2021/eika-shopping-list",
-		"web": ""
+		"git": "https://github.com/liuhaiwei-2021/netflix-clone-react-web",
+		"web": "https://netflix-clone-react-web.web.app/"
 	}
 ]
