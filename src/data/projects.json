@@ -72,7 +72,7 @@
 		"desktopImg": "images/desktopImg/coming.png",
 		"desc": "A Netflix clone",
 		"tech": ["JavaScript", "CSS", "HTML", "React", "FireBase"],
-		"isOpen": false,
+		"isOpen": true,
 		"git": "https://github.com/liuhaiwei-2021/eika-shopping-list",
 		"web": ""
 	}

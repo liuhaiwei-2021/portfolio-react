@@ -16,8 +16,8 @@ function About() {
 							Sweden.
 						</p>
 						<p>
-							Focus on frontend skills and enjoy creating delightful and
-							human-centered experiences!
+							Focus on frontend skills and enjoy creating delightful and human-centred
+							experiences!
 						</p>
 						<p>
 							I love walking, reading, listening music, learning new things and really
