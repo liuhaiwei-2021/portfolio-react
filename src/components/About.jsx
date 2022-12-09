@@ -1,7 +1,7 @@
 //Project files
 import "../styles/About.css";
 
-function About() {
+export default function About() {
 	return (
 		<section className="bg-light" id="about">
 			<div className="about container">
@@ -37,5 +37,3 @@ function About() {
 		</section>
 	);
 }
-
-export default About;
