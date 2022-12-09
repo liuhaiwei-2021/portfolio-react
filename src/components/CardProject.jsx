@@ -19,7 +19,7 @@ export default function CardProject({ item }) {
 	}
 
 	return (
-		<div className="card-project" onClick={isOpen ? openModal : null}>
+		<article className="card-project" onClick={isOpen ? openModal : null}>
 			<div className="card" onClick={() => setModal(<ModalForm item={item} />)}>
 				<div className="img-project">
 					<img src={imageURL} alt={title} />
@@ -36,6 +36,6 @@ export default function CardProject({ item }) {
 			</div>
 
 			{/* <ModalForm item={item} modalState={[showModal, setShowModal]} /> */}
-		</div>
+		</article>
 	);
 }
