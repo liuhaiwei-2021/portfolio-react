@@ -8,6 +8,12 @@ export default function ModalForm({ item }) {
 	//properties
 	const { title, desc, tech, desktopImg, git, web } = item;
 
+	const Tech = tech.map((item, index) => (
+		<button key={index} className="pill">
+			{item}
+		</button>
+	));
+
 	return (
 		<div className="modal-form">
 			<div className="modal-picture">
@@ -22,14 +28,7 @@ export default function ModalForm({ item }) {
 				<h3 className="header">{title}</h3>
 				<p className="text">{desc}</p>
 
-				<div className="pill-group">
-					{tech.length > 0 &&
-						tech.map((item, index) => (
-							<button key={index} className="pill">
-								{item}
-							</button>
-						))}
-				</div>
+				<div className="pill-group">{Tech}</div>
 
 				<div className="button-group">
 					<a href={web}>
