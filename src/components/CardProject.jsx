@@ -26,7 +26,7 @@ export default function CardProject({ item }) {
 				</div>
 				{!isOpen && (
 					<div className="lock">
-						<h3>COMING SOON</h3>
+						<h3>comming soon</h3>
 					</div>
 				)}
 
