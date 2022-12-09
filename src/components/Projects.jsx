@@ -3,15 +3,16 @@ import CardProject from "./CardProject";
 import projects from "../data/projects.json";
 import "../styles/Projects.css";
 
-function Projects() {
+export default function Projects() {
+	const projectCards = projects.map((item, index) => <CardProject key={index} item={item} />);
+
 	return (
 		<section className="bg-dark" id="projects">
+			<div className="projects-header container">
+				<h1>Projects List</h1>
+			</div>
 			<div className="projects container">
 				<div className="projects-info">
-					<div className="projects-header">
-						<h1>Projects List</h1>
-					</div>
-
 					<div className="projects-text">
 						<p>
 							I like to make useful and excellent products. Here are some of my
@@ -21,12 +22,9 @@ function Projects() {
 				</div>
 
 				<div className="projects-cards" id="projects-cards">
-					{projects.length > 0 &&
-						projects.map((item, index) => <CardProject key={index} item={item} />)}
+					{projectCards}
 				</div>
 			</div>
 		</section>
 	);
 }
-
-export default Projects;

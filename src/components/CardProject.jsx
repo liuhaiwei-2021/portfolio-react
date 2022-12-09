@@ -6,7 +6,7 @@ import ModalForm from "./ModalForm";
 import { useModal } from "../state/ModalContext";
 import "../styles/CardProject.css";
 
-function CardProject({ item }) {
+export default function CardProject({ item }) {
 	const { setModal } = useModal();
 	const { imageURL, title, isOpen } = item;
 
@@ -39,5 +39,3 @@ function CardProject({ item }) {
 		</div>
 	);
 }
-
-export default CardProject;
