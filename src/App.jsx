@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import Modal from "./components/Modal";
 import "./styles/App.css";
 
-function App() {
+export default function App() {
 	return (
 		<>
 			<Modal />
@@ -22,11 +22,9 @@ function App() {
 					<Projects />
 					<TechStack />
 					<Contact />
+					<Footer />
 				</div>
-				<Footer />
 			</div>
 		</>
 	);
 }
-
-export default App;
