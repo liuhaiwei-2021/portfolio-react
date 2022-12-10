@@ -8,21 +8,17 @@ export default function Projects() {
 
 	return (
 		<section className="bg-dark" id="projects">
-			<div className="projects-header container">
-				<h1>Projects List</h1>
-			</div>
 			<div className="projects container">
-				<div className="projects-info">
-					<div className="projects-text">
-						<p>
-							I like to make useful and excellent products. Here are some of my
-							projects in Novare potential.
-						</p>
-					</div>
-				</div>
+				<h1 className="projects-header">Projects List</h1>
 
-				<div className="projects-cards" id="projects-cards">
-					{projectCards}
+				<div className="projects-info">
+					<p className="projects-paragraph">
+						I like to make useful and excellent products. Here are some of my projects
+						in Novare potential.
+					</p>
+					<div className="projects-cards" id="projects-cards">
+						{projectCards}
+					</div>
 				</div>
 			</div>
 		</section>

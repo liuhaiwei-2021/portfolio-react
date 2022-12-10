@@ -1,29 +1,21 @@
 .projects {
-	display: grid;
+	display: flex;
+	flex-direction: column;
 	min-height: 100vh;
 	width: 100%;
-	grid-template-rows: (1fr);
-	grid-template-columns: (1fr 1fr);
-	padding: 16px 0px 16px 0;
+	padding: 50px 0px 50px 0;
 }
 .projects-header {
-	/* display: block; */
 	padding: 8px 0 8px 0;
 }
 .projects-info {
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 2;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	align-content: space-between;
+	justify-content: flex-start;
 }
 
-.projects-cards {
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 2;
-	padding: 8px;
-}
 .projects-cards {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
