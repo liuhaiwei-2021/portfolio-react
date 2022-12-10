@@ -5,9 +5,7 @@
 	width: 100%;
 	padding: 50px 0px 50px 0;
 }
-.projects-header {
-	padding: 8px 0 8px 0;
-}
+
 .projects-info {
 	display: flex;
 	flex-direction: row;

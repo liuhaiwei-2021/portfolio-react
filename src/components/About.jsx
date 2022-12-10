@@ -9,9 +9,9 @@ export default function About() {
 				<div className="about-info">
 					<p className="about-paragraph">
 						Hi! I'm Haiwei, grew up in China , a frontend developer from Stockholm
-						Sweden. Focus on frontend skills and enjoy creating delightful and
-						human-centred experiences! I love walking, reading, listening music,
-						learning new things and really love coding !
+						Sweden. Focus on frontend skills and enjoy creating delightful experiences!
+						I love walking, reading, listening music, learning new things and really
+						love coding!
 					</p>
 
 					<div className="about-illustartion">
