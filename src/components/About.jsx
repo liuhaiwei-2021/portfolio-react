@@ -17,7 +17,7 @@ export default function About() {
 					<div className="about-illustartion">
 						<img
 							className="img"
-							src="images/illustration.png"
+							src="images/illustration-2.png"
 							alt="Woman Coder illustrtion"
 						/>
 					</div>

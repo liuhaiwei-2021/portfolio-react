@@ -13,6 +13,10 @@
 	align-content: space-between;
 	justify-content: flex-start;
 }
+.about-paragraph {
+	width: 50%;
+	padding-right: 48px;
+}
 
 .about img {
 	width: 500px;

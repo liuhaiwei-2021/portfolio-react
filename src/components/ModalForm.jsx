@@ -32,10 +32,10 @@ export default function ModalForm({ item }) {
 
 				<div className="button-group">
 					<a href={web}>
-						<button> Visit Website/APP</button>
+						<button className="btn-website"> Visit Website/APP</button>
 					</a>
 					<a href={git}>
-						<button> Git repository</button>
+						<button className="btn-git"> Git repository</button>
 					</a>
 				</div>
 			</div>

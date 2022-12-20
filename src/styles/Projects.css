@@ -14,6 +14,11 @@
 	justify-content: flex-start;
 }
 
+.projects-paragraph {
+	width: 50%;
+	padding-right: 48px;
+}
+
 .projects-cards {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
