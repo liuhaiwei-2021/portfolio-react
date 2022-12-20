@@ -13,11 +13,6 @@ export default function Navigation() {
 
 				<ul className="navbar-items">
 					<li className="nav-item">
-						<a className="nav-link" aria-current="page" href="#hero">
-							Hero
-						</a>
-					</li>
-					<li className="nav-item">
 						<a className="nav-link" href="#about">
 							About
 						</a>
